@@ -1,3 +1,3 @@
-EXCLUDES="*.md LICENSE"
+EXCLUDES="*.md LICENSE aliases"
 DOTFILES_DIRS="$HOME/dotfiles-local $HOME/dotfiles"
 COPY_ALWAYS="git_template/HEAD"

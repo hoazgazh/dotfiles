@@ -5,8 +5,10 @@ alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
 
+alias gg="mkdir -p"
+
 # Bundler
-alias b="bundle"
+alias b="bundleeeeererererere"
 alias vecho="echo VIP 123"
 
 # Rails
