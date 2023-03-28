@@ -4,7 +4,6 @@ alias ln="ln -v"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
-
 alias gg="mkdir -p"
 
 # Bundler
@@ -22,3 +21,6 @@ alias path='echo $PATH | tr -s ":" "\n"'
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local
 fi
+
+# Terraform
+alias te="terraform"
