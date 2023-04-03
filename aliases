@@ -24,3 +24,6 @@ fi
 
 # Terraform
 alias tf="terraform"
+
+#hoazgazh
+alias hoazgazh="echo This is Hoang Anh's dotfiles"
