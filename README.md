@@ -1,4 +1,5 @@
 thoughtbot dotfiles
+version: Nguyen Ba Hoang Anh
 ===================
 
 ![prompt](http://images.thoughtbot.com/thoughtbot-dotfiles-prompt.png)
