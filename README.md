@@ -6,7 +6,8 @@ thoughtbot dotfiles
 Requirements
 ------------
 
-Set zsh as your login shell:
+Set zsh as your login shell: (Change về zsh)
+
 
     chsh -s $(which zsh)
 
@@ -22,7 +23,11 @@ updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
+Dành cho macos:
     brew install rcm
+
+Dành cho linux/fedora:
+    sudo dnf install rcm
 
 Install the dotfiles:
 
