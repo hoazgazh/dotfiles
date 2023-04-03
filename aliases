@@ -8,7 +8,7 @@ alias gg="mkdir -p"
 
 # Bundler
 alias b="bundleeeeererererere"
-alias vecho="echo VIP 123"
+alias vecho="echo This is Hoang Anhs dotfiles"
 
 # Rails
 alias migrate="bin/rails db:migrate db:rollback && bin/rails db:migrate db:test:prepare"
@@ -26,4 +26,4 @@ fi
 alias tf="terraform"
 
 #hoazgazh
-alias hoazgazh="echo This is Hoang Anh's dotfiles"
+alias hoazgazh="echo This is Hoang Anhs dotfiles"
