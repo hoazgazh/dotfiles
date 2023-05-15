@@ -5,6 +5,7 @@ alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
 alias gg="mkdir -p"
+alias pip=/usr/bin/pip3
 
 # Bundler
 alias b="bundleeeeererererere"
