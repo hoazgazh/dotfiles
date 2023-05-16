@@ -30,4 +30,6 @@
   colorMoved = zebra
 [user]
 	email = hoazgazh@gmail.com
-	name = hoazgazh
+	name = anhnbh
+[credential]
+	helper = wincred
