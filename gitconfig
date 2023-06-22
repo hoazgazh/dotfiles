@@ -29,7 +29,9 @@
 [diff]
   colorMoved = zebra
 [user]
-	email = hoazgazh@gmail.com
+	email = anhnbh@pvcombank.com.vn
 	name = anhnbh
 [credential]
 	helper = wincred
+  helper = !aws --profile CodeCommitProfile codecommit credential-helper $@
+  UseHttpPath = true
