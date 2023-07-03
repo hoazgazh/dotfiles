@@ -32,6 +32,11 @@
 	email = anhnbh@pvcombank.com.vn
 	name = anhnbh
 [credential]
-	helper = wincred
-  helper = !aws --profile CodeCommitProfile codecommit credential-helper $@
-  UseHttpPath = true
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
