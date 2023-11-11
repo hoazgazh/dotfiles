@@ -16,6 +16,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+  askpass =
 [merge]
   ff = only
 [commit]
@@ -31,9 +32,6 @@
 [user]
 	email = anhnbh@pvcombank.com.vn
 	name = anhnbh
-[credential]
-	helper = !aws codecommit credential-helper $@
-	UseHttpPath = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
