@@ -8,6 +8,7 @@ Requirements
 ------------
 
 Set zsh as your login shell: (Change về zsh)
+
     sudo dnf install which
     sudo dnf install zsh
     sudo dnf install util-linux-user
