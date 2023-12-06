@@ -27,10 +27,16 @@ updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
 Install [rcm](https://github.com/thoughtbot/rcm):
 
 Dành cho macos:
+
     brew install rcm
 
 Dành cho linux/fedora:
+
     sudo dnf install rcm
+
+Install p10k:
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
 Install the dotfiles:
 
