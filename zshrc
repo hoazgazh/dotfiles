@@ -156,3 +156,4 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
