@@ -21,6 +21,7 @@
   ff = only
 [commit]
   template = ~/.gitmessage
+
 [fetch]
   prune = true
 [rebase]
@@ -30,8 +31,7 @@
 [diff]
   colorMoved = zebra
 [user]
-	email = anhnbh@pvcombank.com.vn
-	name = anhnbh
+
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
