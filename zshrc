@@ -1,5 +1,4 @@
-# Amazon Q pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -165,7 +164,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
-alias qchatlog='timestamp=$(date "+%Y-%m-%d_%H-%M-%S") && mkdir -p "$HOME/.aws/amazonq/history" && q chat | tee "$HOME/.aws/amazonq/history/chat_$timestamp.log"'
+
 
 # Java Environment Variables
 export JAVA_8_HOME=$(/usr/libexec/java_home -v 1.8)
@@ -177,19 +176,13 @@ export PATH=$JAVA_HOME/bin:$PATH
 alias java8="export JAVA_HOME=$JAVA_8_HOME && export PATH=$JAVA_HOME/bin:$PATH && java -version"
 alias java17="export JAVA_HOME=$JAVA_17_HOME && export PATH=$JAVA_HOME/bin:$PATH && java -version"
 
-# Load Amazon Q CLI configuration
-if [ -f ~/.zshrc_amazonq ]; then
-    source ~/.zshrc_amazonq
-fi
-# Amazon Q Developer with docs context
-alias qd='cd /Users/user/PVcom/github/openMF/ph-ee-bill-pay && q chat --agent ph-ee-bill-pay'
-alias q-docs='~/q-docs.sh'
+
+
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 
-# Amazon Q post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 # Suppress Powerlevel10k instant prompt warnings
