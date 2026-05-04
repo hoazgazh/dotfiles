@@ -1,5 +1,5 @@
 # give us access to ^Q
-stty -ixon
+[[ -t 0 ]] && stty -ixon
 
 # vi mode
 bindkey -v

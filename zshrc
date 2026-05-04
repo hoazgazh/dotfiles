@@ -198,7 +198,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 export PATH="/Users/user/.antigravity/antigravity/bin:$PATH"
 
 # OpenClaw Completion
-source "/Users/user/.openclaw/completions/openclaw.zsh"
+source "$HOME/.openclaw/completions/openclaw.zsh"
 export OLLAMA_API_KEY="ollama-local"
 
 export NVM_DIR="$HOME/.nvm"
